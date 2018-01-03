@@ -16,5 +16,5 @@ class Solution(object):
       if nums[i] in dict:
         return [dict[nums[i]], i]
       else:
-        dict[traget - nums[i]] = i
+        dict[target - nums[i]] = i
         
